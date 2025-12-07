@@ -78,28 +78,6 @@ export const CertificationsSection = () => {
             </div>
           ))}
         </div>
-
-        {/* Achievements Stats */}
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-6">
-          <div className="text-center p-6 bg-card rounded-lg border border-border">
-            <div className="text-3xl font-bold text-primary mb-2">500+</div>
-            <div className="text-sm text-muted-foreground">
-              LeetCode Problems
-            </div>
-          </div>
-          <div className="text-center p-6 bg-card rounded-lg border border-border">
-            <div className="text-3xl font-bold text-primary mb-2">1000+</div>
-            <div className="text-sm text-muted-foreground">LeetCode Rating</div>
-          </div>
-          <div className="text-center p-6 bg-card rounded-lg border border-border">
-            <div className="text-3xl font-bold text-primary mb-2">2-Star</div>
-            <div className="text-sm text-muted-foreground">CodeChef Rating</div>
-          </div>
-          <div className="text-center p-6 bg-card rounded-lg border border-border">
-            <div className="text-3xl font-bold text-primary mb-2">3</div>
-            <div className="text-sm text-muted-foreground">Live Projects</div>
-          </div>
-        </div>
       </div>
     </section>
   );
