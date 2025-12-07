@@ -7,6 +7,7 @@ const certifications = [
     issuer: "DigitalOcean & GitHub",
     date: "2025",
     description: "Successfully contributed to open-source projects during Hacktoberfest 2025",
+    link: "https://www.holopin.io/hacktoberfest2025/userbadge/cmhm9zptn001mjm04mzhzc7jj",
     icon: "🎃",
   },
   {
@@ -15,6 +16,7 @@ const certifications = [
     issuer: "Postman",
     date: "2024",
     description: "Certified in API testing, development, and documentation using Postman",
+    link: "https://api.badgr.io/public/assertions/15UnwDBNRhCOZUrLyGqUyw",
     icon: "📮",
   },
   {
@@ -23,6 +25,7 @@ const certifications = [
     issuer: "Microsoft & LinkedIn",
     date: "2024",
     description: "Completed comprehensive course on Generative AI fundamentals and applications",
+    link: "https://www.linkedin.com/learning/certificates/761a94f74c31cb7ee7f260434bba9de96d97eec308b33bb0693133b111d5b300",
     icon: "🤖",
   },
 ];
@@ -48,7 +51,7 @@ export const CertificationsSection = () => {
               className="group bg-card rounded-lg p-6 shadow-xs card-hover border border-border"
             >
               <div className="flex items-start justify-between mb-4">
-                <div className="text-4xl">{cert.icon}</div>
+                <ExternalLink className="h-5 w-5 text-primary" />
                 <Award className="h-5 w-5 text-primary" />
               </div>
 
