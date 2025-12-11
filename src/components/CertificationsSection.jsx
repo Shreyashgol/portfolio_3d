@@ -5,7 +5,6 @@ const certifications = [
     id: 1,
     title: "Hacktoberfest'25 Super-Contributor",
     issuer: "DigitalOcean",
-    date: "2025",
     description:
       "Successfully contributed to open-source projects during Hacktoberfest 2025",
     link: "https://www.holopin.io/hacktoberfest2025/userbadge/cmhm9zptn001mjm04mzhzc7jj",
@@ -15,7 +14,6 @@ const certifications = [
     id: 2,
     title: "Postman API Fundamentals Student Expert",
     issuer: "Postman",
-    date: "2024",
     description:
       "Certified in API testing, development, and documentation using Postman",
     link: "https://api.badgr.io/public/assertions/15UnwDBNRhCOZUrLyGqUyw",
@@ -25,7 +23,6 @@ const certifications = [
     id: 3,
     title: "Career Essentials in Generative AI",
     issuer: "Microsoft & LinkedIn",
-    date: "2024",
     description:
       "Completed comprehensive course on Generative AI fundamentals and applications",
     link: "https://www.linkedin.com/learning/certificates/761a94f74c31cb7ee7f260434bba9de96d97eec308b33bb0693133b111d5b300",
@@ -35,7 +32,6 @@ const certifications = [
     id: 4,
     title: "GSSOC'25 Contributor",
     issuer: "GirlScript Summer of Code",
-    date: "2025",
     description:
       "Successfully contributed to open-source projects during GirlScript Summer of Code",
     link: "https://disciplinary-aquamarine-uekqpqumcg-9s3gxmq2ur.edgeone.dev/",
@@ -45,7 +41,6 @@ const certifications = [
     id: 5,
     title: "SOF National Science Olympiad",
     issuer: "Science Olympiad Foundation",
-    date: "2025",
     description:
       "Securing 3 Rank in SOF",
     link: "https://secondary-plum-bjb2g91e3w-dtlonavzxe.edgeone.dev/",
@@ -55,7 +50,6 @@ const certifications = [
     id: 6,
     title: "BrainCafe Building Scientist Contest",
     issuer: "Zee Learn Ltd",
-    date: "2025",
     description:
       "Securing 3 Rank in Building Scientist Contest by building scalable model",
     link: "https://img.sanishtech.com/u/edddf8365187f4bd2947d8123b22cae1.jpg",
@@ -97,11 +91,9 @@ export const CertificationsSection = () => {
 
               <h3 className="text-xl font-semibold mb-2">{cert.title}</h3>
 
-              <div className="text-sm text-muted-foreground">
-                <span>{cert.issuer}</span>
-                <span>•</span>
-                <span>{cert.date}</span>
-              </div>
+              <p className="text-sm text-muted-foreground">
+                {cert.issuer}
+              </p>
 
               <p className="m-4 text-sm text-muted-foreground">
                 {cert.description}
