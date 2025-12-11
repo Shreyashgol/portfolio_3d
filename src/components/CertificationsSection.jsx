@@ -3,8 +3,8 @@ import { Award, ExternalLink } from "lucide-react";
 const certifications = [
   {
     id: 1,
-    title: "Hacktoberfest'25 Contributor",
-    issuer: "DigitalOcean & GitHub",
+    title: "Hacktoberfest'25 Super-Contributor",
+    issuer: "DigitalOcean",
     date: "2025",
     description:
       "Successfully contributed to open-source projects during Hacktoberfest 2025",
@@ -31,6 +31,37 @@ const certifications = [
     link: "https://www.linkedin.com/learning/certificates/761a94f74c31cb7ee7f260434bba9de96d97eec308b33bb0693133b111d5b300",
     icon: "🤖",
   },
+  {
+    id: 4,
+    title: "GSSOC'25 Contributor",
+    issuer: "GirlScript Summer of Code",
+    date: "2025",
+    description:
+      "Successfully contributed to open-source projects during GirlScript Summer of Code",
+    link: "https://disciplinary-aquamarine-uekqpqumcg-9s3gxmq2ur.edgeone.dev/",
+    icon: "🎃",
+  },
+  {
+    id: 5,
+    title: "SOF National Science Olympiad",
+    issuer: "Science Olympiad Foundation",
+    date: "2025",
+    description:
+      "Securing 3 Rank in SOF",
+    link: "https://secondary-plum-bjb2g91e3w-dtlonavzxe.edgeone.dev/",
+    icon: "🎃",
+  },
+  {
+    id: 6,
+    title: "BrainCafe Building Scientist Contest",
+    issuer: "Zee Learn Ltd",
+    date: "2025",
+    description:
+      "Securing 3 Rank in Building Scientist Contest by building scalable model",
+    link: "https://img.sanishtech.com/u/edddf8365187f4bd2947d8123b22cae1.jpg",
+    icon: "🎃",
+  }
+
 ];
 
 export const CertificationsSection = () => {
@@ -66,13 +97,13 @@ export const CertificationsSection = () => {
 
               <h3 className="text-xl font-semibold mb-2">{cert.title}</h3>
 
-              <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+              <div className="text-sm text-muted-foreground">
                 <span>{cert.issuer}</span>
                 <span>•</span>
                 <span>{cert.date}</span>
               </div>
 
-              <p className="text-sm text-muted-foreground">
+              <p className="m-4 text-sm text-muted-foreground">
                 {cert.description}
               </p>
             </div>
