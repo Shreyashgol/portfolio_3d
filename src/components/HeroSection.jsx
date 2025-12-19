@@ -66,6 +66,19 @@ export const HeroSection = () => {
               </svg>
               <span className="text-sm font-medium">Codeforces</span>
             </a>
+
+            <a
+              href="https://codolio.com/profile/AlgoShera"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center gap-2 px-4 py-2 rounded-lg bg-card border border-border hover:border-primary transition-all duration-300 hover:scale-105"
+              title="Codolio Profile"
+            >
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M4.5 7.5C5.328 7.5 6 8.172 6 9v10.5c0 .828-.672 1.5-1.5 1.5h-3C.672 21 0 20.328 0 19.5V9c0-.828.672-1.5 1.5-1.5h3zm9-4.5c.828 0 1.5.672 1.5 1.5v15c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5v-15c0-.828.672-1.5 1.5-1.5h3zm9 7.5c.828 0 1.5.672 1.5 1.5v7.5c0 .828-.672 1.5-1.5 1.5h-3c-.828 0-1.5-.672-1.5-1.5V12c0-.828.672-1.5 1.5-1.5h3z"/>
+              </svg>
+              <span className="text-sm font-medium">Codoio</span>
+            </a>
           </div>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
