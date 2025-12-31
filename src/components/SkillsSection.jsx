@@ -3,7 +3,6 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Programming Languages
-  { name: "C++", level: 85, category: "languages" },
   { name: "JavaScript", level: 95, category: "languages" },
   { name: "Python", level: 85, category: "languages" },
   { name: "TypeScript", level: 80, category: "languages" },
@@ -20,31 +19,28 @@ const skills = [
   // Backend
   { name: "Node.js", level: 90, category: "backend" },
   { name: "Express.js", level: 85, category: "backend" },
-  { name: "Django", level: 70, category: "backend" },
+  { name: "FastApi", level: 70, category: "backend" },
 
   // Databases
   { name: "MySQL", level: 80, category: "databases" },
   { name: "PostgreSQL", level: 80, category: "databases" },
   { name: "MongoDB", level: 75, category: "databases" },
-  { name: "NoSQL", level: 75, category: "databases" },
 
   // Cloud & DevOps
   { name: "AWS", level: 70, category: "cloud" },
   { name: "Linux", level: 80, category: "cloud" },
   { name: "Virtualization", level: 65, category: "cloud" },
-  { name: "Git/GitHub", level: 95, category: "cloud" },
   { name: "Vercel", level: 85, category: "cloud" },
 
   // Machine Learning / AI
   { name: "Generative AI", level: 75, category: "ai" },
   { name: "Hugging Face", level: 65, category: "ai" },
-  { name: "OpenCV", level: 70, category: "ai" },
 
   // Data & Analytics
   { name: "Pandas", level: 75, category: "data" },
   { name: "NumPy", level: 75, category: "data" },
   { name: "Matplotlib", level: 70, category: "data" },
-  { name: "Excel", level: 85, category: "data" },
+  { name: "Scikit-learn", level: 85, category: "data" },
 
   // Visualization Libraries
   { name: "Chart.js", level: 75, category: "visualization" },
@@ -55,10 +51,10 @@ const skills = [
   { name: "VS Code", level: 95, category: "other" },
   { name: "Firebase", level: 80, category: "other" },
   { name: "Prisma ORM", level: 75, category: "other" },
+  { name: "Git/GitHub", level: 95, category: "cloud" }
 ];
 
 const categories = [
-  "all",
   "languages",
   "frontend",
   "backend",
@@ -71,7 +67,6 @@ const categories = [
 ];
 
 const categoryLabels = {
-  all: "All Skills",
   languages: "Programming Languages",
   frontend: "Frontend",
   backend: "Backend",
@@ -121,18 +116,6 @@ export const SkillsSection = () => {
             >
               <div className="text-left mb-4">
                 <h3 className="font-semibold text-lg"> {skill.name}</h3>
-              </div>
-              <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
-                <div
-                  className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out]"
-                  style={{ width: skill.level + "%" }}
-                />
-              </div>
-
-              <div className="text-right mt-1">
-                <span className="text-sm text-muted-foreground">
-                  {skill.level}%
-                </span>
               </div>
             </div>
           ))}
