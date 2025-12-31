@@ -82,7 +82,7 @@ export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
 
   const filteredSkills = skills.filter(
-    (skill) => activeCategory === "all" || skill.category === activeCategory
+    (skill) => skill.category === activeCategory
   );
   return (
     <section id="skills" className="py-24 px-4 relative bg-secondary/30">
@@ -101,7 +101,7 @@ export const SkillsSection = () => {
                 activeCategory === category
                   ? "bg-primary text-primary-foreground"
                   : "bg-secondary/70 text-forefround hover:bd-secondary"
-              )}
+              ),"cosmic-button"}
             >
               {categoryLabels[category]}
             </button>
