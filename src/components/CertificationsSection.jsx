@@ -34,7 +34,7 @@ const certifications = [
     issuer: "GirlScript Summer of Code",
     description:
       "Successfully contributed to open-source projects during GirlScript Summer of Code",
-    link: "https://disciplinary-aquamarine-uekqpqumcg-9s3gxmq2ur.edgeone.dev/",
+    link: "https://drive.google.com/file/d/1AI6y5WaHbGb-B2jOMGD6j-LURghFS-o8/view?usp=sharing",
     icon: "🎃",
   },
   {
@@ -43,7 +43,7 @@ const certifications = [
     issuer: "Science Olympiad Foundation",
     description:
       "Securing 3 Rank in SOF",
-    link: "https://secondary-plum-bjb2g91e3w-dtlonavzxe.edgeone.dev/",
+    link: "https://drive.google.com/file/d/1Jrb5O7oFz6WAvMgUzPGIusFhO9JroXfT/view?usp=sharing",
     icon: "🎃",
   },
   {
@@ -52,7 +52,7 @@ const certifications = [
     issuer: "Zee Learn Ltd",
     description:
       "Securing 3 Rank in Building Scientist Contest by building scalable model",
-    link: "https://img.sanishtech.com/u/edddf8365187f4bd2947d8123b22cae1.jpg",
+    link: "https://drive.google.com/file/d/1Deqwv7P-ltjQ0URMp9DMIzPY-tlPWmMZ/view?usp=sharing",
     icon: "🎃",
   }
 
