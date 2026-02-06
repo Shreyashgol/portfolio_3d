@@ -30,6 +30,24 @@ const projects = [
     demoUrl: "https://real-estate-app-teal.vercel.app/",
     githubUrl: "https://github.com/Shreyashgol/real_estate_app",
   },
+  {
+    id: 4,
+    title: "Anapan AI Sales Agent",
+    description: "Build an AI meeting preparation assistant such that before every meeting, you should automatically get a prep with all the required insights about the person you are meeting with.",
+    image: "/projects/project1.png",
+    tags: ["Next.js", "Node.js", "Express", "PostgreSQL", "Tailwind CSS", "Outh","DuckDuckGo Scraper"],
+    demoUrl: "https://ai-meeting-assistant-topaz.vercel.app/",
+    githubUrl: "https://github.com/Shreyashgol/ai-meeting-assistant",
+  }.
+  {
+    id: 5,
+    title: "genMap - Interactive Family Health Tree",
+    description: "A privacy-focused web application for building family trees, tracking genetic health conditions, and calculating hereditary disease risks using AI-powered analysis.",
+    image: "/projects/project1.png",
+    tags: ["Next.js", "Node.js", "Express", "PostgreSQL", "JWT", "Tailwind CSS"],
+    demoUrl: "https://heredity-matcher-ihfp.vercel.app/",
+    githubUrl: "https://github.com/Shreyashgol/heredity_matcher",
+  }
 ];
 export const ProjectsSection = () => {
   return (
